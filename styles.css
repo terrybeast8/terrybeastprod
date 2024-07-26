@@ -6,7 +6,7 @@ body {
     color: #FFFFFF;
 }
 
-header .navbar-brand {
+.header .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -14,7 +14,6 @@ header .navbar-brand {
 .hero-section {
     position: relative;
     height: 100vh;
-    background-image: url('images/header-background.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -53,6 +52,12 @@ section {
     margin-bottom: 30px;
 }
 
+.service-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
 .testimonials .carousel-inner {
     padding: 20px;
     background: rgba(255, 255, 255, 0.1);
@@ -77,6 +82,7 @@ section {
     max-width: 100%;
     height: auto;
     border: 5px solid #FFFFFF;
+    margin-bottom: 20px;
 }
 
 .beatstars {
