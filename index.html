@@ -3,94 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terry Beast - Music Producer</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Terry Beast Productions</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-gray-900 text-white">
-    <!-- Navbar -->
-    <nav class="bg-gray-800 p-4">
-        <div class="container mx-auto flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold">Terry Beast</a>
-            <div class="space-x-4">
-                <a href="#home" class="hover:text-gray-400">Home</a>
-                <a href="#about" class="hover:text-gray-400">About</a>
-                <a href="#portfolio" class="hover:text-gray-400">Portfolio</a>
-                <a href="#services" class="hover:text-gray-400">Services</a>
-                <a href="#contact" class="hover:text-gray-400">Contact</a>
-            </div>
+<body>
+    <header class="header">
+        <div class="overlay">
+            <h1>Welcome to Terry Beast Productions</h1>
+            <p>Elevate Your Sound to New Heights</p>
         </div>
-    </nav>
-    
-    <!-- Home Section -->
-    <section id="home" class="h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('https://source.unsplash.com/random/1600x900?music')">
-        <div class="text-center">
-            <h1 class="text-5xl font-bold">Welcome to Terry Beast's Studio</h1>
-            <p class="text-xl mt-4">Producing music that speaks to the soul</p>
-            <a href="#portfolio" class="mt-6 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Listen Now</a>
-        </div>
+    </header>
+    <section class="about">
+        <h2>About Us</h2>
+        <p>Terry Beast Productions offers top-notch audio production services to bring your music to life. With state-of-the-art equipment and a passion for sound, we ensure your projects exceed industry standards.</p>
     </section>
-
-    <!-- About Section -->
-    <section id="about" class="py-16 bg-gray-800">
-        <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold">About Me</h2>
-            <p class="mt-4 text-lg">I am a passionate music producer with over 10 years of experience in the industry...</p>
-        </div>
+    <section class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Mixing & Mastering</li>
+            <li>Recording</li>
+            <li>Sound Design</li>
+            <li>Audio Consultation</li>
+        </ul>
     </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="py-16">
-        <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold">Portfolio</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-                <div class="bg-gray-800 p-4">
-                    <img src="https://source.unsplash.com/random/400x300?studio" alt="Project 1">
-                    <h3 class="mt-4 text-2xl">Project 1</h3>
-                    <p class="mt-2">Description of project 1</p>
-                </div>
-                <div class="bg-gray-800 p-4">
-                    <img src="https://source.unsplash.com/random/400x300?music" alt="Project 2">
-                    <h3 class="mt-4 text-2xl">Project 2</h3>
-                    <p class="mt-2">Description of project 2</p>
-                </div>
-                <div class="bg-gray-800 p-4">
-                    <img src="https://source.unsplash.com/random/400x300?instrument" alt="Project 3">
-                    <h3 class="mt-4 text-2xl">Project 3</h3>
-                    <p class="mt-2">Description of project 3</p>
-                </div>
-            </div>
-        </div>
+    <section class="contact">
+        <h2>Get in Touch</h2>
+        <p>Email: contact@terrybeast.com</p>
+        <p>Phone: (123) 456-7890</p>
     </section>
-
-    <!-- Services Section -->
-    <section id="services" class="py-16 bg-gray-800">
-        <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold">Services</h2>
-            <div class="mt-8">
-                <p class="text-lg">I offer a range of services including mixing, mastering, and custom music production...</p>
-            </div>
-        </div>
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="images/studio.jpg" alt="Studio Image">
     </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-16">
-        <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold">Contact Me</h2>
-            <p class="mt-4 text-lg">Feel free to reach out for collaborations or inquiries.</p>
-            <form class="mt-8">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <input type="text" placeholder="Name" class="p-2 rounded bg-gray-700 text-white">
-                    <input type="email" placeholder="Email" class="p-2 rounded bg-gray-700 text-white">
-                </div>
-                <textarea placeholder="Message" class="mt-4 p-2 rounded bg-gray-700 text-white w-full"></textarea>
-                <button type="submit" class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Send</button>
-            </form>
-        </div>
+    <section class="beatstars">
+        <h2>Listen to Our Beats</h2>
+        <iframe src="https://player.beatstars.com/?storeId=148405" width="100%" height="800" style="max-width:1024px"> -- none -- </iframe>
     </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-800 p-4 text-center">
-        <p>&copy; 2024 Terry Beast. All rights reserved.</p>
-    </footer>
 </body>
 </html>
