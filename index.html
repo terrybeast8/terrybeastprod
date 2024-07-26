@@ -4,40 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terry Beast Productions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
+        <nav class="navbar">
+            <div class="logo">Terry Beast Productions</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#beats">Beats</a></li>
+            </ul>
+        </nav>
         <div class="overlay">
             <h1>Welcome to Terry Beast Productions</h1>
             <p>Elevate Your Sound to New Heights</p>
         </div>
     </header>
-    <section class="about">
+    <section id="about" class="about">
         <h2>About Us</h2>
         <p>Terry Beast Productions offers top-notch audio production services to bring your music to life. With state-of-the-art equipment and a passion for sound, we ensure your projects exceed industry standards.</p>
     </section>
-    <section class="services">
+    <section id="services" class="services">
         <h2>Our Services</h2>
         <ul>
-            <li>Mixing & Mastering</li>
-            <li>Recording</li>
-            <li>Sound Design</li>
-            <li>Audio Consultation</li>
+            <li><i class="fas fa-microphone-alt"></i> Mixing & Mastering</li>
+            <li><i class="fas fa-headphones-alt"></i> Recording</li>
+            <li><i class="fas fa-music"></i> Sound Design</li>
+            <li><i class="fas fa-cogs"></i> Audio Consultation</li>
         </ul>
     </section>
-    <section class="contact">
+    <section id="contact" class="contact">
         <h2>Get in Touch</h2>
-        <p>Email: contact@terrybeast.com</p>
-        <p>Phone: (123) 456-7890</p>
+        <p>Email: <a href="mailto:contact@terrybeast.com">contact@terrybeast.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p>
     </section>
-    <section class="gallery">
+    <section id="gallery" class="gallery">
         <h2>Gallery</h2>
         <img src="images/studio.jpg" alt="Studio Image">
     </section>
-    <section class="beatstars">
+    <section id="beats" class="beatstars">
         <h2>Listen to Our Beats</h2>
         <iframe src="https://player.beatstars.com/?storeId=148405" width="100%" height="800" style="max-width:1024px"> -- none -- </iframe>
     </section>
+    <footer class="footer">
+        <p>&copy; 2024 Terry Beast Productions. All rights reserved.</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>
