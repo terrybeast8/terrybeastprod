@@ -1,8 +1,24 @@
 [build]
-  publish = "/"
-  command = ""
+publish = "/"  # Use the root if no build process is involved, else update to your build output folder like "dist"
+command = "npm run build"  # Adjust this if you are using a build command, else set it to ""
+
+[context.production.environment]
+NODE_VERSION = "14"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+from = "/*"
+to = "/index.html"
+status = 200
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"  # Comment out or remove this line if you are not using Next.js
+
+[[plugins]]
+package = "@netlify/plugin-sentry"  # Remove or adjust based on your build requirements
+
+[[plugins]]
+package = "@netlify/plugin-cache"  # Optional caching plugin, remove if not using
+
+[visual-editor]
+path = "/admin"
+title = "Terry Beast Visual Editor"
