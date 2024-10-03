@@ -1,4 +1,4 @@
-/* styles.css */
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -9,6 +9,16 @@ body {
 .header .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.header .nav-link {
+    color: #FFFFFF;
+    margin: 0 10px;
+}
+
+.header .btn-primary {
+    margin-left: 20px;
+    background-color: #007bff;
 }
 
 .hero-section {
@@ -38,30 +48,34 @@ body {
     margin: 10px 0 0;
 }
 
-section {
+.services {
     padding: 50px 0;
+    background-color: #222222;
+    color: #FFFFFF;
     text-align: center;
 }
 
-.about {
-    background-color: #f8f9fa;
-    color: #000;
-}
-
-.services .col-md-4 {
-    margin-bottom: 30px;
-}
-
-.service-icon {
+.services .service-icon {
     width: 100px;
     height: 100px;
     margin-bottom: 20px;
+    border-radius: 50%;
 }
 
-.testimonials .carousel-inner {
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
+.services .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.testimonials {
+    padding: 50px 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.testimonials .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
 }
 
 .testimonials .testimonial-text {
@@ -72,21 +86,6 @@ section {
 .testimonials .testimonial-author {
     font-size: 1rem;
     color: #cccccc;
-}
-
-.contact .form-control {
-    margin-bottom: 15px;
-}
-
-.gallery img {
-    max-width: 100%;
-    height: auto;
-    border: 5px solid #FFFFFF;
-    margin-bottom: 20px;
-}
-
-.beatstars {
-    padding: 50px;
 }
 
 .footer {
