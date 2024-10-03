@@ -1,0 +1,13 @@
+{
+  "name": "terry-beast-production",
+  "version": "1.0.0",
+  "description": "Professional Music Services Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build command executed!'"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "Terry Beast",
+  "license": "ISC"
+}
