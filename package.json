@@ -1,10 +1,11 @@
 {
-  "name": "terry-beast-production",
+  "name": "terry-beast-website",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "npm run build",
-    "start": "serve -s build"
+    "build": "echo 'No build command needed' && exit 0"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "author": "Terry Beast",
+  "license": "MIT"
 }
