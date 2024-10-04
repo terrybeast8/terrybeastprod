@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'No build command needed' && exit 0"
+ "build": "echo \"Skipping build step since it's static HTML\""
+
   },
   "author": "Terry Beast",
   "license": "MIT"
